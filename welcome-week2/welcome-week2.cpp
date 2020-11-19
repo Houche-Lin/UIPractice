@@ -42,12 +42,12 @@ int main(int argc, char* argv[])
 			usage(argv[0]);
 		}
 	}
-	else if (argc != 6)
+	else if (argc != 5)
 	{	
 		error("Wrong number of parameters.");
 		usage(argv[0]);
 	}
-	for(int i=2; i<argc; i=i+2)
+	for(int i=1; i<argc; i=i+2)
 	{
 		arg =argv[i];
 		if(arg == "-h")
