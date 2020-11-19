@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
 	string arg;
 	if (argc == 3)
 	{	
-		arg =argv[2];	
+		arg =argv[1];	
 		if(arg == "-?")
 		{			
 			usage(argv[0]);
